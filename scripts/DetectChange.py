@@ -15,7 +15,7 @@ out_dir = args["output_directory"]
 
 print('[INFO] Start Change Detection ...')
 print('[INFO] Importing Librairies ...')
-import cv2 
+import cv2
 import sklearn
 from sklearn.cluster import KMeans
 from collections import Counter
